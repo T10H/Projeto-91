@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Quiz de Matemática</title>
+    <meta name="viewport" content="width=devide-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+</head>
+
+<body>
+    <div>
+        <span id="player1_name"></span> <span id="playerScore1"></span>
+        <br>
+        <span id="player2_name"></span> <span id="playerScore2"></span>
+    </div>
+    <div class="container">
+        <center>
+            <h2 style="color:white;">Quiz de Matemática</h2>
+            <span>Turno de pergunta:</span>
+            <span id="question_turn"></span>
+            <br>
+            <span>Turno de resposta:</span>
+            <span id="answer_turn"></span>
+            <div id="output">
+                <h3 id="question"></h3>
+                <input id="answer" placeholder="Coloque sua resposta" type="number"></input>
+                <br>
+                <button onclick="check()" class="btn btn-info">Checar</button>
+
+            </div>
+            <div id="input">
+                <h3>Número 1</h3>
+                <input id="numero1" class="numero1" placeholder="Número 1" type="number">
+                <br>
+                <h3>Número 2</h3>
+                <input id="numero2" class="numero2" placeholder="Número 2" type="number">
+                <br>
+                <button class="btn btn-success" onclick="enviar();">Enviar</button>
+            </div>
+
+        </center>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>

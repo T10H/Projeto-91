@@ -1,0 +1,32 @@
+body 
+{
+    background-color:rgb(60, 57, 230);
+}
+#output
+{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid green;
+    padding:10px;
+    float:none;
+    text-align: left;
+    
+}
+button
+{
+    margin-top: 20px;
+}
+h3, span {
+    color: white;
+}
+input{
+    border-radius: 5px;
+    border-color: darkgreen;
+    width: 50%;
+    text-align: center;
+}
+#question
+{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
